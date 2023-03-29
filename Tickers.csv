@@ -1,0 +1,121 @@
+Ticker,Name,Category
+AAPL,Apple,Big Tech
+MSFT,Microsoft,Big Tech
+META,Meta,Big Tech
+AMZN,Amazon,Big Tech
+GOOG,Google,Big Tech
+HUYA,Huya,SaaS
+KC,Kingsoft Cloud,SaaS
+VNET,VNET Group,SaaS
+ANGI,Angi,SaaS
+TWOU,2U Inc,SaaS
+MU,Micron,SaaS
+RNG,RingCentral,SaaS
+IQV,Iqvia,SaaS
+FSLY,Fastly,SaaS
+QTWO,Q2,SaaS
+TWLO,Twilio,SaaS
+AKAM,Akamai,SaaS
+DBX,Dropbox,SaaS
+WIX,wix.com,SaaS
+VMW,VMware,SaaS
+NTNX,Nutanix,SaaS
+NFLX,Netflix,SaaS
+ZM,Zoom,SaaS
+BOX,Box,SaaS
+IT,Gartner,SaaS
+DOCU,Docusign,SaaS
+NEWR,New Relic,SaaS
+SPLK,Splunk,SaaS
+ESTC,Elastic NV,SaaS
+AYX,Alteryx,SaaS
+COUP,Coupa Software,SaaS
+APPN,Appian,SaaS
+APPF,Appfolio,SaaS
+PANW,Palo Alto Networks,SaaS
+OKTA,Okta,SaaS
+PD,PagerDuty,SaaS
+FIVN,Five9,SaaS
+WDAY,Workday,SaaS
+ADBE,Adobe,SaaS
+BL,Blackline,SaaS
+SMAR,Smartsheet,SaaS
+ADSK,Autodesk,SaaS
+QLYS,Qualys,SaaS
+ANSS,Ansys,SaaS
+DT,Dynatrace,SaaS
+HUBS,Hubspot,SaaS
+NOW,ServiceNow,SaaS
+PCTY,Paylocity,SaaS
+ANET,Arista,SaaS
+VEEV,Veeva,SaaS
+TEAM,Atlassian,SaaS
+CSGP,CoStar,SaaS
+MDB,MongoDB,SaaS
+PAYC,Paycom,SaaS
+CRWD,Crowdstrike,SaaS
+ZS,Zscaler,SaaS
+TTD,TradeDesk,SaaS
+AZPN,Aspen,SaaS
+DDOG,DataDog,SaaS
+SHY,1-3 Year Treasuries,Fixed Income
+TLT,20+ Year Treasuries,Fixed Income
+LQD,Investment Grade,Fixed Income
+HYG,High Yield,Fixed Income
+REM,Mortgages,Fixed Income
+IVV,USA,Country
+ASHR,China,Country
+VGK,Europe,Country
+EWC,Canada,Country
+INDA,India,Country
+EWJ,Japan,Country
+EWG,Germany,Country
+ACWI,Developed Markets,Global Indices
+FM,Frontier Markets,Global Indices
+EEM,Emerging Markets,Global Indices
+UUP,Dollar,Currency
+BITO,Bitcoin,Home
+GSG,Commodities,Home
+IWM,Global Equities,Home
+FXE,Euro,Currency
+FXY,Japanese Yen,Currency
+FXB,British Pound,Currency
+FXC,Canadian Dollar,Currency
+CYB,Chinese Yuan,Currency
+FXA,Australian Dollar,Currency
+FXF,Swiss Franc,Currency
+XHB,Homebuilders,Sector
+XRT,Retail,Sector
+XTN,Transportation,Sector
+FENY,Energy,Sector
+PSJ,Software,Sector
+VFH,Financials,Sector
+VDC,Consumer Defensive,Sector
+VPU,Utilities,Sector
+VIS,Industrials,Sector
+V,Visa,US Equities
+VHT,Healthcare,Sector
+VAW,Basic Materials,Sector
+RY,Royal Bank,Canadian Equities
+BAM,Brookfield,Canadian Equities
+SU,Suncor,Canadian Equities
+ASML,ASML Holding,Global Equities
+JPM,JP Morgan,US Equities
+ARKK,ARKK,Sector
+IMO,Imperial Oil,Canadian Equities
+AMD,Advanced Micro,US Equities
+NVDA,Nvidia,US Equities
+Z,Zillow,SaaS
+BCE,Bell Canada,Canadian Equities
+NTR,Nutrien,Canadian Equities
+CRM,Salesforce,SaaS
+OXY,Occidental,US Equities
+CVX,Chevron,US Equities
+XOM,Exxon,US Equities
+ADM,Archer Daniels Midland,US Equities
+RTX,Raytheon,US Equities
+LMT,Lockheed,US Equities
+INTC,Intel,US Equities
+TSM,Taiwan Semi,Global Equities
+SHOP,Shopify,SaaS
+AB,Alliance Bernstein,US Equities

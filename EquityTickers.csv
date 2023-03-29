@@ -1,0 +1,127 @@
+Ticker,Name,Category
+AAPL,Apple,Big Tech
+GOOG,Google,Big Tech
+MSFT,Microsoft,Big Tech
+AMZN,Amazon,Big Tech
+META,Meta,Big Tech
+CRM,Salesforce,SaaS
+SHOP,Shopify,SaaS
+SQ,Block,SaaS
+DDOG,Datadog,SaaS
+SNOW,Snowflake,SaaS
+NET,Cloudflare,SaaS
+XOM,Exxon,Oil
+CVX,Chevron,Oil
+SU,Suncor,Oil
+OXY,Occidental,Oil
+JNJ,Johnson&Johnson,Healthcare
+UNH,United Health,Healthcare
+LLY,Eli Lilly,Healthcare
+PFE,Pfizer,Healthcare
+ABBV,AbbVie,Healthcare
+NVS,Novartis,Healthcare
+AMGN,Amgen,Healthcare
+RY,Royal Bank,Banks
+JPM,JP Morgan,Banks
+BAC,Bank of America,Banks
+WFC,Wells Fargo,Banks
+TD,TD,Banks
+MS,Morgan Stanley,Banks
+NTR,Nutrien,Materials
+BHP,BHP Group,Materials
+RIO,Rio Tinto,Materials
+APD,Air Products and Chemicals,Materials
+ALB,Albemarle,Materials
+AGCO,AGCO,Agriculture
+ADM,Archer Daniels Midland,Agriculture
+DHI,DR Horton,Real Estate
+MTH,Meritage Homes,Real Estate
+HD,Home Depot,Consumer Discretionary
+MCD,Mcdonalds,Consumer Discretionary
+NKE,Nike,Apparel
+LOW,Lowes,Consumer Discretionary
+SBUX,Starbucks,Consumer Discretionary
+TJX,TJX,Consumer Discretionary
+DE,John Deere,Industrials
+CAT,Caterpillar,Industrials
+ITW,Illinois Tool Works,Industrials
+ETN,Eaton,Industrials
+CTAS,Cintas,Industrials
+NEE,Nextera Energy,Utilities
+BCE,Bell Canada,Utilities
+DUK,Duke Energy,Utilities
+D,Dominion Energy,Utilities
+AWK,American Water Works,Utilities
+HUYA,Huya,SaaS
+KC,Kingsoft Cloud,SaaS
+VNET,VNET Group,SaaS
+ANGI,Angi,SaaS
+TWOU,2U Inc,SaaS
+MU,Micron,SaaS
+RNG,RingCentral,SaaS
+IQV,Iqvia,SaaS
+FSLY,Fastly,SaaS
+QTWO,Q2,SaaS
+TWLO,Twilio,SaaS
+AKAM,Akamai,SaaS
+DBX,Dropbox,SaaS
+WIX,wix.com,SaaS
+VMW,VMware,SaaS
+NTNX,Nutanix,SaaS
+NFLX,Netflix,SaaS
+ZM,Zoom,SaaS
+BOX,Box,SaaS
+IT,Gartner,SaaS
+DOCU,Docusign,SaaS
+NEWR,New Relic,SaaS
+SPLK,Splunk,SaaS
+ESTC,Elastic NV,SaaS
+AYX,Alteryx,SaaS
+COUP,Coupa Software,SaaS
+APPN,Appian,SaaS
+APPF,Appfolio,SaaS
+PANW,Palo Alto Networks,SaaS
+OKTA,Okta,SaaS
+PD,PagerDuty,SaaS
+FIVN,Five9,SaaS
+WDAY,Workday,SaaS
+ADBE,Adobe,SaaS
+BL,Blackline,SaaS
+SMAR,Smartsheet,SaaS
+ADSK,Autodesk,SaaS
+QLYS,Qualys,SaaS
+ANSS,Ansys,SaaS
+DT,Dynatrace,SaaS
+HBS,Hubspot,SaaS
+NOW,ServiceNow,SaaS
+PCTY,Paylocity,SaaS
+ANET,Arista,SaaS
+VEEV,Veeva,SaaS
+TEAM,Atlassian,SaaS
+CSGP,CoStar,SaaS
+MDB,MongoDB,SaaS
+PAYC,Paycom,SaaS
+CRWD,Crowdstrike,SaaS
+ZS,Zscaler,SaaS
+TTD,TradeDesk,SaaS
+AZPN,Aspen,SaaS
+AMD,Advanced Micro,Semis
+NVDA,Nvidia,Semis
+TSM,Taiwan Semi,Semis
+QCOM,Qualcomm,Semis
+INTC,Intel,Semis
+ASML,ASML,Semis
+MMM,3M,Industrials
+GE,General Electric,Industrials
+V,Visa,Payments
+MA,Mastercard,Payments
+AXP,American Express,Payments
+BRK-B,Berkshire,Financials
+AIG,AIG Insurance,Financials
+DIS,Disney,Entertainment
+NFLX,Netflix,Entertainment
+PARA,Paramount,Entertainment
+CMCSA,Comcast,Entertainment
+LULU,Lululemon,Apparel
+ADS,Adidas,Apparel
+PLTR,Palantir,Saas
