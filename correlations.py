@@ -1,6 +1,6 @@
 import pandas as pd
 
-def save_correlation_matrix(pricedataframe, number_of_days):
+def Save_Correlation_Matrix(pricedataframe, number_of_days):
     # save to csv the Pearson correlation coefficient of the price dataframe going back specified number of trading days
 
     pricedataframe = pricedataframe.iloc[:number_of_days]

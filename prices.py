@@ -3,7 +3,7 @@ import requests
 import time
 
 
-def GetDailyClosePrices(API_KEY, Ticker):
+def Get_Daily_Close_Prices(API_KEY, Ticker):
     # return daily price dataframe
     url = 'https://www.alphavantage.co/query?function=TIME_SERIES_DAILY_ADJUSTED&symbol={}&outputsize=full&apikey={}'.format(Ticker,API_KEY)
     r = requests.get(url)
@@ -21,7 +21,7 @@ def GetDailyClosePrices(API_KEY, Ticker):
 # construct a csv file cols are tickers, rows are dates
 # for each ticker in tickerlist, add the series to the prices dataframe
 
-def constructPricesDF(API_KEY, Tickerlist):
+def Construct_Prices_DF(API_KEY, Tickerlist):
     # take in list of tickers, return dataframe of prices
     pricedf = pd.DataFrame()
     for i in range(len(Tickerlist)):
@@ -32,7 +32,7 @@ def constructPricesDF(API_KEY, Tickerlist):
         if i % 5 == 0 and i != 0:
             time.sleep(65)
 
-        pricedf[Tickerlist[i]] = GetDailyClosePrices(API_KEY, Tickerlist[i])
+        pricedf[Tickerlist[i]] = Get_Daily_Close_Prices(API_KEY, Tickerlist[i])
         pricedf = pricedf.iloc[:300]
         print(Tickerlist[i], ' prices to df')
 

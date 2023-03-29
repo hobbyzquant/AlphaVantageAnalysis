@@ -3,7 +3,7 @@ import pandas as pd
 import time
 
 
-def GetIncomeStatement(API_KEY, Ticker, timeframe):
+def Get_Income_Statement(API_KEY, Ticker, timeframe):
   # return daily price dataframe
   url = 'https://www.alphavantage.co/query?function=INCOME_STATEMENT&symbol={}&apikey={}'.format(Ticker,API_KEY)
   r = requests.get(url)
@@ -19,7 +19,7 @@ def GetIncomeStatement(API_KEY, Ticker, timeframe):
   return df
 
 
-def GetBalanceSheet(API_KEY, Ticker, timeframe):
+def Get_Balance_Sheet(API_KEY, Ticker, timeframe):
   # return daily price dataframe
   url = 'https://www.alphavantage.co/query?function=BALANCE_SHEET&symbol={}&apikey={}'.format(Ticker,API_KEY)
   r = requests.get(url)
@@ -34,7 +34,7 @@ def GetBalanceSheet(API_KEY, Ticker, timeframe):
   return df
 
 
-def constructIncomeStatementDF(API_KEY, TickerlistEquities, timeframe):
+def Construct_IncomeStatement_DF(API_KEY, TickerlistEquities, timeframe):
   # take in list of tickers, return dataframe of income statements
   incomestatementdf = pd.DataFrame()
   request_count = 0
@@ -45,7 +45,7 @@ def constructIncomeStatementDF(API_KEY, TickerlistEquities, timeframe):
     if request_count % 5 == 0 and request_count != 0:
       time.sleep(65)
     
-    incomestatementdf = pd.concat([incomestatementdf, GetIncomeStatement(API_KEY, TickerlistEquities[i], timeframe)], ignore_index=True)
+    incomestatementdf = pd.concat([incomestatementdf, Get_Income_Statement(API_KEY, TickerlistEquities[i], timeframe)], ignore_index=True)
     print(TickerlistEquities[i], ' income statement')
     request_count += 1
     
@@ -53,7 +53,7 @@ def constructIncomeStatementDF(API_KEY, TickerlistEquities, timeframe):
   return incomestatementdf
 
 
-def constructBalanceSheetsDF(API_KEY, TickerlistEquities, timeframe):
+def Construct_BalanceSheets_DF(API_KEY, TickerlistEquities, timeframe):
   # take in list of tickers, return dataframe of balance sheets
 
   balancesheetdf = pd.DataFrame()
@@ -65,7 +65,7 @@ def constructBalanceSheetsDF(API_KEY, TickerlistEquities, timeframe):
     if request_count % 5 == 0 and request_count != 0:
       time.sleep(65)
     
-    balancesheetdf = pd.concat([balancesheetdf, GetBalanceSheet(API_KEY, TickerlistEquities[i], timeframe)], ignore_index=True)
+    balancesheetdf = pd.concat([balancesheetdf, Get_Balance_Sheet(API_KEY, TickerlistEquities[i], timeframe)], ignore_index=True)
     print(TickerlistEquities[i], ' balance sheet')
     request_count += 1
     

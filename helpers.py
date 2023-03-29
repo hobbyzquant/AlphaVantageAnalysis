@@ -8,5 +8,5 @@ def Get_All_Tickers(path):
 
     return tickers
 
-def save_to_csv(dataframe, path):
+def Save_To_Csv(dataframe, path):
     dataframe.to_csv(path)

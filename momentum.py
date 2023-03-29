@@ -1,7 +1,7 @@
 import pandas as pd
   
 
-def GetMomentumIndicator(priceSeries):
+def Get_Momentum_Indicator(priceSeries):
   # return 5 values for weekly,monthly,threeMonth,sixMonth,twelveMonth momentum
   # less than -0.75 std: strong bear, -0.75:-0.25 weak bear, -0.25:0.25 chop, 0.25-0.75 weak bull, more than 0.75 std: strong bull
   # uses rolling std for each timeframe eg weekly indicator uses weekly standard deviation
@@ -101,7 +101,7 @@ def GetMomentumIndicator(priceSeries):
 
 # loop through tickers and save indicators to dataframe
 
-def momentumToDF(pricedataframe):
+def Momentum_To_DF(pricedataframe):
   # return dataframe with momo indicators
 
   momodf = pd.DataFrame(columns = ['Ticker','weekly','monthly','3m','6m','12m'])
@@ -109,7 +109,7 @@ def momentumToDF(pricedataframe):
   pricedataframe = pricedataframe[cols]
 
   for col in pricedataframe:
-    row = GetMomentumIndicator(pricedataframe[col])
+    row = Get_Momentum_Indicator(pricedataframe[col])
     row.insert(0,col) # TODO: change this line to below for efficiency
     # what type is the row? thought it was list but this is fragmenting the dataframe
     momodf.loc[len(momodf)] = row

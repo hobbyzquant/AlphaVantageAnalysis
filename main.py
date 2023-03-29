@@ -1,8 +1,8 @@
-from momentum import momentumToDF
-from correlations import save_correlation_matrix
+from momentum import Momentum_To_DF
+from correlations import Save_Correlation_Matrix
 from helpers import Get_All_Tickers
-from helpers import save_to_csv
-from prices import constructPricesDF
+from helpers import Save_To_Csv
+from prices import Construct_Prices_DF
 import financialfilings
 
 
@@ -25,25 +25,25 @@ ticker_list_equities = Get_All_Tickers(retrieve_equitytickers_path)
 
 
 # construct a dataframe for prices
-pricesdf = constructPricesDF(API_KEY, ticker_list)
+pricesdf = Construct_Prices_DF(API_KEY, ticker_list)
 
 # save csv's for price, momentum, correlation analysis
-momentumdf = momentumToDF(pricesdf)
+momentumdf = Momentum_To_DF(pricesdf)
 
-save_to_csv(pricesdf,save_prices_path)
-save_to_csv(momentumdf,save_momentum_path)
-save_correlation_matrix(pricesdf,300)
-save_correlation_matrix(pricesdf,150)
-save_correlation_matrix(pricesdf,50)
-save_correlation_matrix(pricesdf,20)
+Save_To_Csv(pricesdf,save_prices_path)
+Save_To_Csv(momentumdf,save_momentum_path)
+Save_Correlation_Matrix(pricesdf,300)
+Save_Correlation_Matrix(pricesdf,150)
+Save_Correlation_Matrix(pricesdf,50)
+Save_Correlation_Matrix(pricesdf,20)
 
 
 # save csv's for financial filings analysis
 # comment below out if updated financial filings data for all tickers is not needed
 
 # to update all tickers including existing, set update_existing = True
-incomedf = financialfilings.constructIncomeStatementDF(API_KEY, ticker_list_equities, 'quarterlyReports')
-save_to_csv(incomedf,save_incomestatement_path)
+incomedf = financialfilings.Construct_IncomeStatement_DF(API_KEY, ticker_list_equities, 'quarterlyReports')
+Save_To_Csv(incomedf,save_incomestatement_path)
 
-balancesheetdf = financialfilings.constructBalanceSheetsDF(API_KEY, ticker_list_equities, 'quarterlyReports')
-save_to_csv(balancesheetdf,save_balancesheet_path)
+balancesheetdf = financialfilings.Construct_BalanceSheets_DF(API_KEY, ticker_list_equities, 'quarterlyReports')
+Save_To_Csv(balancesheetdf,save_balancesheet_path)
